@@ -31,7 +31,7 @@ body {
   left: 0;
   top: 0;
   bottom: 0;
-  height: 100vh;
+  height: 100%;
   transition: var(--transition_2s);
 }
 
@@ -49,6 +49,11 @@ body {
   top: 10px;
   z-index: 99;
   transition: var(--transition_2s);
+}
+
+.sidebar .bar i {
+  position: relative;
+  top: 2px;
 }
 
 .sidebar.active .bar {
